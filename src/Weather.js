@@ -22,7 +22,7 @@ export default function Weather() {
   }
   function handleSubmit(event) {
     event.preventDefault();
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=london&appid=5da7b2dc058f07286fea39c4cee516a3&units=metric`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=5da7b2dc058f07286fea39c4cee516a3&units=metric`;
     axios.get(url).then(showWeather);
   }
 
