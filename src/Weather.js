@@ -13,6 +13,7 @@ export default function Weather() {
   function showWeather(response) {
     setLoaded(true);
     setWeather({
+      cityName: response.data.name,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
@@ -44,7 +45,7 @@ export default function Weather() {
         {form}
         <div className="weather-data">
           <div>
-            <h1 className="city">{city}</h1>
+            <h1 className="city">{weather.cityName}</h1>
             <div className="weather-details">
               <p>
                 {weather.description}
