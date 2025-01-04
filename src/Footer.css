@@ -1,0 +1,12 @@
+footer {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #1e517a;
+  margin-left: 2px;
+}
+.github {
+  margin-right: 2px;
+}
