@@ -10,12 +10,11 @@ export default function Footer() {
       </a>
       , is
       <a
-        className="github"
         href="https://github.com/Tetiana-Far/weather-react"
         rel="noreferrer"
         target="_blank"
       >
-        open-sourced on GitHub
+        open-sourced on GitHub{" "}
       </a>
       and
       <a
